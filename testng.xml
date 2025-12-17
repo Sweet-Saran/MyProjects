@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+ <parameter name="Browser" value="chrome"/>
+
+    <test name="Test" thread-count="2">
+        <classes>
+            <class name="businesscomponents.AdacitinTestNg"/>
+            <class name="businesscomponents.BingAdacitinTestNG"/>
+        </classes>
+    </test>
+
+</suite>

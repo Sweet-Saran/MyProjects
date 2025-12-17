@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]">
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="businesscomponents.AdacitinTestNg">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="terminateBrowser"/>
+          <include name="browserInvoke"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="waitTime"/>
+          <include name="utility"/>
+          <include name="googleSearch" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- businesscomponents.AdacitinTestNg -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
